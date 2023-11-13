@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<title>Ermin Hodzic | Personal Website</title>
+</head>
+<body>
+	<header>
+		<hr />
+<a class="title" href="index.html">
+	<h1>Ermin Hodžić</h1>
+	<h4>my personal website and blog</h4>
+</a>
+<hr />
+	</header>
+
+	<nav>
+		<a href="index.html">Home</a>
+<a href="articles.html">All Articles</a>
+<a href="aboutme.html">About Me</a>
+	</nav>
+
+	<div id="wrapper">
+		<section>
+
+			<article>
+				<time datetime="2023-06-29 20:00">2023-06-29</time>
+				<h2><a href="2023-06_bignumMultiplication.html">Multiplication of Big Numbers</a></h2>
+				<a href="Media/2023-06_BignumMultiplication.pdf">PDF (LaTeX) <img src="Media/pdf_icon.png" style="max-height: 20px;"></a>
+				<div class="content">
+					
+	<p>In this text, we are going to be dealing with what we call <em>big numbers</em>.
+	Such numbers far exceed the maximum value supported by fundamental single-variable data types in programming languages, such as the \(64\)-bit integer, or the double type.
+	Within a \(64\)-bit integer variable, we are able to store numbers of up to 19 decimal digits.
+	However, what do we do when that is no longer enough?
+	If we, for whatever purpose, need to store numbers that have potentially hundreds or even thousands of digits, we can no longer rely on the basic built-in data types provided by programming languages, as there are no machine instructions that operate on such big numbers.
+	Thus, we have to resort to writing our own code that implements such big numbers and the appropriate basic operations, such as addition and multiplication.</p>
+
+	<p>Before going into the technical details of implementing addition and multiplication on such numbers, we are going to talk about how dealing with big numbers actually reduces to dealing with polynomials.
+	We do this because polynomials provide us with more flexibility, as they are not as restricted in their structure as numbers themselves are.
+	Afterwards, we will go through a number of increasingly faster algorithms used to multiply polynomials, ultimately describing the <em>Fast Fourier Transform</em> algorithm to the tiniest detail.</p>
+	
+	<p style="margin-top:20px">Please refer to the <a href="Media/2023-06_BignumMultiplication.pdf">PDF LaTeX document</a> for the description.</p>
+
+				</div>
+			</article>
+			
+		</section>
+
+		<aside>
+			<img src="Media/BosanskiLjiljan.png">
+<p>Welcome to my personal website and blog, where I write about algorithms and my postdoctoral research. From time to time, I publish articles in the form of lectures about various algorithmic techniques or specific problems to solve — either those used by me in my ongoing research, or something that has caught my interest in the past or present.</p>
+<p>Please see the About Me page (link in the top) if you would like to contact me or are looking for more information.</p>
+		</aside>
+	</div>
+
+	<footer>
+		<hr />
+	</footer>
+</body>
+</html>

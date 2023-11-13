@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<title>Ermin Hodzic | Personal Website</title>
+</head>
+<body>
+	<header>
+		<hr />
+<a class="title" href="index.html">
+	<h1>Ermin Hodžić</h1>
+	<h4>my personal website and blog</h4>
+</a>
+<hr />
+	</header>
+
+	<nav>
+		<a href="index.html">Home</a>
+<a href="articles.html">All Articles</a>
+<a href="aboutme.html">About Me</a>
+	</nav>
+
+	<div id="wrapper">
+		<section>
+
+			<article>
+				<time datetime="2023-11-11 20:00">2023-11-11</time>
+				<h2><a href="2023-11_pearsonVectorConstruction.html">Constructing a Vector With a Specific Pearson Correlation</a></h2>
+				<a href="Media/2023-11_pearsonCorrelationVector.pdf">PDF (LaTeX) <img src="Media/pdf_icon.png" style="max-height: 20px;"></a>
+				<div class="content">
+					
+	<p>This tutorial will describe a solution to a problem that I have encountered while constructing synthetic data for a research project, to run simulations on.
+	Without going into much detail, a part of the data that I needed to generate consisted of an \(n\)-dimensional vector and a separate matrix with \(n\) columns.
+	Rather than generating data of the vector and the matrix uniformly at random, it would have been useful to decide (randomly) on a certain <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson correlation coefficient</a> of each row of the matrix with the vector.
+	Once a row has been assigned a target correlation coefficient, we would like to generate values in that row which reflect the decided correlation coefficient.</p>
+
+	<p>More formally, given a vector \(\vec{v}\) and a target Pearson correlation coefficient value \(P\), the goal is to construct a vector \(\vec{u}\) such that \(r(\vec{u}, \vec{v}) = P\), where \(r(\vec{u},\vec{v})\) denotes the Pearson correlation coefficient between vectors \(\vec{u}\) and \(\vec{v}\).</p>
+
+	<p>I will assume that the reader possesses a very basic understanding of vectors in a vector space, such as what vectors are and their basic properties, as well as the rules (and visualization) of their addition and subtraction.
+	Additionally, I will assume that the reader is familiar with the inner product (or dot product) of vectors, and its relation to the angle between vectors (or cosine similarity in higher dimensions) and the norm, or magnitude, of the vector.
+	For those who could use a quick refresher, the first few paragraphs of the Wikipedia pages about <a href="https://en.wikipedia.org/wiki/Vector_space">vector space</a> and <a href="https://en.wikipedia.org/wiki/Inner_product_space">inner product</a> are a decent resource.</p>
+
+	<p style="margin-top:20px">Please refer to the <a href="Media/2023-11_pearsonCorrelationVector.pdf">PDF LaTeX document</a> for the description.</p>
+
+				</div>
+			</article>
+			
+		</section>
+
+		<aside>
+			<img src="Media/BosanskiLjiljan.png">
+<p>Welcome to my personal website and blog, where I write about algorithms and my postdoctoral research. From time to time, I publish articles in the form of lectures about various algorithmic techniques or specific problems to solve — either those used by me in my ongoing research, or something that has caught my interest in the past or present.</p>
+<p>Please see the About Me page (link in the top) if you would like to contact me or are looking for more information.</p>
+		</aside>
+	</div>
+
+	<footer>
+		<hr />
+	</footer>
+</body>
+</html>
