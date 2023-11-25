@@ -154,6 +154,17 @@ nav a {
 	display: inline-block;
 }
 
+#wrapper section > article .articleLinks > .pdf {
+/*	margin: 0px 10px;*/
+	display: inline-block;
+	background-color: #cc3300;
+	border-radius: 3px;
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	padding: 3px 5px;
+}
+
 #wrapper section > article .articleLinks > a:last-child {
 	margin-right: 0px;
 }
@@ -204,14 +215,24 @@ footer > p {
 @media only screen and (max-width: 620px) {
 	/* Mobile phone screen */
 	/* TODO */
+	body {
+		width: 100%;
+/*		margin: 10px auto;*/
+		padding: 10px;
+	}
+
+	header .title {
+		padding: 10px 50px 30px 50px;
+	}
+
 	#wrapper {
 		flex-direction: column;
 	}
 
 	#wrapper > section {
 		width: 100%;
-		margin-left: 20px;
-		padding-right: 20px;
+/*		margin-left: 20px;*/
+/*		padding-right: 20px;*/
 	}
 
 	#wrapper > aside {
