@@ -154,7 +154,7 @@ nav a {
 	display: inline-block;
 }
 
-#wrapper section > article .articleLinks > .pdf {
+#wrapper section > article .pdf {
 /*	margin: 0px 10px;*/
 	display: inline-block;
 	background-color: #cc3300;
