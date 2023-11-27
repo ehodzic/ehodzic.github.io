@@ -117,12 +117,21 @@ nav a {
 }
 
 #wrapper section > article > h2 {
-	margin: 10px 0px;
+/*	margin: 10px 0px;*/
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
 /*	font-size: 14pt;*/
 /*	text-transform: uppercase;*/
 /*	text-transform: capitalize;*/
 /*	font-family: sans-serif;*/
 /*	font-weight: normal;*/
+}
+
+#wrapper section > article > time {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #wrapper section > article > a {
