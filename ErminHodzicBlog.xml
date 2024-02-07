@@ -3,10 +3,12 @@
 <channel>
 <title>Ermin Hodzic Blog</title>
 <link>https://erminhodzic.com/</link>
+<author><name>Ermin Hodzic</name></author>
 <description>My personal website and blog, where I write about algorithms and my postdoctoral research.</description>
 <item>
 <title>Constructing a Vector With a Specific Pearson Correlation</title>
 <link>https://erminhodzic.com/2023-11_pearsonVectorConstruction.html</link>
+<author><name>Ermin Hodzic</name></author>
 <guid>https://erminhodzic.com//article0</guid>
 <pubDate>2023-11-11</pubDate>
 <description>
@@ -21,6 +23,7 @@
 <item>
 <title>Multiplication of Big Numbers</title>
 <link>https://erminhodzic.com/2023-06_bignumMultiplication.html</link>
+<author><name>Ermin Hodzic</name></author>
 <guid>https://erminhodzic.com//article1</guid>
 <pubDate>2023-06-29</pubDate>
 <description>
@@ -39,6 +42,7 @@
 <item>
 <title>A Comprehensive Guide to Recursion</title>
 <link>https://erminhodzic.com/2023-05_recursion.html</link>
+<author><name>Ermin Hodzic</name></author>
 <guid>https://erminhodzic.com//article2</guid>
 <pubDate>2023-05-01</pubDate>
 <description>
