@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Ermin Hodzic Blog</title>
+<link>https://erminhodzic.com/</link>
+<description>My personal website and blog, where I write about algorithms and my postdoctoral research.</description>
+<item>
+<title>Constructing a Vector With a Specific Pearson Correlation</title>
+<link>https://erminhodzic.com/2023-11_pearsonVectorConstruction.html</link>
+<guid>https://erminhodzic.com//article0</guid>
+<pubDate>2023-11-11</pubDate>
+<description>
+	<p>This tutorial will describe a solution to a problem that I have encountered while constructing synthetic data for a research project, to run simulations on.
+	Without going into much detail, a part of the data that I needed to generate consisted of an <em>n</em>-dimensional vector and a separate matrix with <em>n</em> columns.
+	Rather than generating data of the vector and the matrix uniformly at random, it would have been useful to decide (randomly) on a certain <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson correlation coefficient</a> of each row of the matrix with the vector.
+	Once a row has been assigned a target correlation coefficient, we would like to generate values in that row which reflect the decided correlation coefficient.</p>
+
+	<p>More formally, given a vector \(\vec{v}\) and a target Pearson correlation coefficient value \(P\), the goal is to construct a vector \(\vec{u}\) such that \(r(\vec{u}, \vec{v}) = P\), where \(r(\vec{u},\vec{v})\) denotes the Pearson correlation coefficient between vectors \(\vec{u}\) and \(\vec{v}\).</p>
+</description>
+</item>
+<item>
+<title>Multiplication of Big Numbers</title>
+<link>https://erminhodzic.com/2023-06_bignumMultiplication.html</link>
+<guid>https://erminhodzic.com//article1</guid>
+<pubDate>2023-06-29</pubDate>
+<description>
+	<p>In this text, we are going to be dealing with what we call <em>big numbers</em>.
+	Such numbers far exceed the maximum value supported by fundamental single-variable data types in programming languages, such as the 64-bit integer, or the double type.
+	Within a 64-bit integer variable, we are able to store numbers of up to 19 decimal digits.
+	However, what do we do when that is no longer enough?
+	If we, for whatever purpose, need to store numbers that have potentially hundreds or even thousands of digits, we can no longer rely on the basic built-in data types provided by programming languages, as there are no machine instructions that operate on such big numbers.
+	Thus, we have to resort to writing our own code that implements such big numbers and the appropriate basic operations, such as addition and multiplication.</p>
+
+	<p>Before going into the technical details of implementing addition and multiplication on such numbers, we are going to talk about how dealing with big numbers actually reduces to dealing with polynomials.
+	We do this because polynomials provide us with more flexibility, as they are not as restricted in their structure as numbers themselves are.
+	Afterwards, we will go through a number of increasingly faster algorithms used to multiply polynomials, ultimately describing the <em>Fast Fourier Transform</em> algorithm to the tiniest detail.</p>
+</description>
+</item>
+<item>
+<title>A Comprehensive Guide to Recursion</title>
+<link>https://erminhodzic.com/2023-05_recursion.html</link>
+<guid>https://erminhodzic.com//article2</guid>
+<pubDate>2023-05-01</pubDate>
+<description>
+	<p>The goal of this article is to provide a comprehensive review of recursion -- what the main idea is, why it works, how to use it to solve problems and integrate it into the reader's toolset.
+	Some advanced algorithmic techniques and data structures heavily rely on recursive code, or require "recursive thinking" in order to solve problems.
+	Examples of such techniques are divide & conquer and dynamic programming, foundation for both of them being recursion, as well as various graph-traversal-based algorithms such as computing strongly-connected components, discovering articulation points, and topologically sorting directed acyclic graphs.
+	Additionally, data structures such as binary search trees, interval trees and segment trees are naturally recursive structures.
+	Without a good understanding of recursion, one might find it much more difficult to understand and learn the above-mentioned topics.</p>
+
+	<p>This manuscript attempts to engage readers of various levels of expertise in the topic of recursion.
+	Effort has been made to write it so that even complete beginners to recursion (but not to programming) should be able to understand a good part of the presented material and get a good grasp at what recursion is and how it works.
+	However, there is no lack of explanation of advanced concepts everywhere in the manuscript for the more experienced reader, and there is some overlap with other topics in computer science that recursion naturally touches upon.
+	Going in-depth on such topics is out of the scope of this manuscript, and where such topics are introduced, it is to help with the explanation of some aspect of recursion, or to demonstrate a possible use case.</p>
+</description>
+</item>
+</channel>
+</rss>
