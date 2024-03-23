@@ -6,10 +6,23 @@
 <author><name>Ermin Hodzic</name></author>
 <description>My personal website and blog, where I write about algorithms and my postdoctoral research.</description>
 <item>
+<title>Finding Palindromic Substrings</title>
+<link>https://erminhodzic.com/2024-03_findingPalindromicSubstrings.html</link>
+<author><name>Ermin Hodzic</name></author>
+<guid>https://erminhodzic.com//article0</guid>
+<pubDate>2024-03-23</pubDate>
+<description>
+	<p>In this paper, we will explore algorithms for identifying palindromes within strings.
+	While the problem of finding palindromes is currently not known to be particularly significant, it nevertheless represents an opportunity to explore searching with constraints that ultimately allow clever performance improvements.
+	We also get the opportunity to showcase a wide variety of approaches to solving the problem.
+	Methods that range from brute-force solutions, to clever but still slow algorithms, to using specialized and advanced data structures, to optimal custom-tailored algorithms -- this problem has it all.</p>
+</description>
+</item>
+<item>
 <title>Constructing a Vector With a Specific Pearson Correlation</title>
 <link>https://erminhodzic.com/2023-11_pearsonVectorConstruction.html</link>
 <author><name>Ermin Hodzic</name></author>
-<guid>https://erminhodzic.com//article0</guid>
+<guid>https://erminhodzic.com//article1</guid>
 <pubDate>2023-11-11</pubDate>
 <description>
 	<p>This tutorial will describe a solution to a problem that I have encountered while constructing synthetic data for a research project, to run simulations on.
@@ -24,7 +37,7 @@
 <title>Multiplication of Big Numbers</title>
 <link>https://erminhodzic.com/2023-06_bignumMultiplication.html</link>
 <author><name>Ermin Hodzic</name></author>
-<guid>https://erminhodzic.com//article1</guid>
+<guid>https://erminhodzic.com//article2</guid>
 <pubDate>2023-06-29</pubDate>
 <description>
 	<p>In this text, we are going to be dealing with what we call <em>big numbers</em>.
@@ -43,7 +56,7 @@
 <title>A Comprehensive Guide to Recursion</title>
 <link>https://erminhodzic.com/2023-05_recursion.html</link>
 <author><name>Ermin Hodzic</name></author>
-<guid>https://erminhodzic.com//article2</guid>
+<guid>https://erminhodzic.com//article3</guid>
 <pubDate>2023-05-01</pubDate>
 <description>
 	<p>The goal of this article is to provide a comprehensive review of recursion -- what the main idea is, why it works, how to use it to solve problems and integrate it into the reader's toolset.
